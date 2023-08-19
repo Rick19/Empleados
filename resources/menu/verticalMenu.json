@@ -1,0 +1,58 @@
+{
+  "menu": [
+    {
+      "menuHeader": "Gestión"
+    },
+    {
+      "name": "Empleados",
+      "icon": "menu-icon tf-icons bx bx bx-group",
+      "slug": "empleados",
+      "submenu": [
+        {
+          "url": "empleados",
+          "name": "Listado",
+          "slug": "empleados.index"
+        },
+        {
+          "url": "empleados/create",
+          "name": "Crear",
+          "slug": "empleados.create"
+        }
+      ]
+    },
+    {
+      "name": "Compañías",
+      "icon": "menu-icon tf-icons bx bx bx-building",
+      "slug": "companies",
+      "submenu": [
+        {
+          "url": "companies",
+          "name": "Listado",
+          "slug": "companies.index"
+        },
+        {
+          "url": "/companies/create",
+          "name": "Crear",
+          "slug": "companies.create"
+        }
+      ]
+    },
+    {
+      "name": "Puestos",
+      "icon": "menu-icon tf-icons bx bx bx-briefcase",
+      "slug": "puestos",
+      "submenu": [
+        {
+          "url": "/puestos",
+          "name": "Listado",
+          "slug": "puestos.index"
+        },
+        {
+          "url": "/puestos/create",
+          "name": "Crear",
+          "slug": "puestos.create"
+        }
+      ]
+    }
+  ]
+}
